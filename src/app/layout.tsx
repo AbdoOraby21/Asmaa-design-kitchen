@@ -197,8 +197,21 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-white text-charcoal antialiased" style={{ fontFamily: "'Cairo', sans-serif" }}>
+     <body className="bg-white text-charcoal antialiased" style={{ fontFamily: "'Cairo', sans-serif" }}>
         {children}
+        <footer className="text-center py-4 text-sm text-gray-500 border-t border-gray-100">
+          <p>
+            تصميم وتطوير بواسطة{" "}
+            
+              href="https://abdo-oraby.myftp.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-charcoal hover:underline font-medium"
+            >
+              Abdo Oraby
+            </a>
+          </p>
+        </footer>
       </body>
     </html>
   );
