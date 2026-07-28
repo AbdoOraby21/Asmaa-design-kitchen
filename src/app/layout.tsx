@@ -201,7 +201,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {children}
         <footer className="text-center py-4 text-sm text-gray-500 border-t border-gray-100">
           <p>
-            تصميم وتطوير بواسطة{" "}
+            تصميم وتطوير بواسطة{""}
             
               href="https://abdo-oraby.myftp.org"
               target="_blank"
